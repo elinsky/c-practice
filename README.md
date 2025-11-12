@@ -1,0 +1,231 @@
+# The C Programming Language (K&R)
+
+Working through the second edition by Kernighan & Ritchie.
+
+## Progress
+
+<details open>
+<summary><b>Chapter 1: A Tutorial Introduction</b></summary>
+
+### Example Programs
+- [x] 1.1 Getting Started - `kr/ch1/hello_world.c`
+- [x] 1.2 Variables and Arithmetic - `kr/ch1/fahr_celsius.c`
+- [ ] 1.3 The For Statement - `kr/ch1/fahr_celsius_for.c`
+- [ ] 1.4 Symbolic Constants - `kr/ch1/fahr_celsius_symbolic.c`
+- [ ] 1.5.1 File Copying - `kr/ch1/file_copy.c`
+- [ ] 1.5.2 Character Counting - `kr/ch1/char_count.c`
+- [ ] 1.5.3 Line Counting - `kr/ch1/line_count.c`
+- [ ] 1.5.4 Word Counting - `kr/ch1/word_count.c`
+- [ ] 1.6 Arrays - `kr/ch1/digit_count.c`
+- [ ] 1.7 Functions - `kr/ch1/power_function.c`
+- [ ] 1.8 Arguments - Call by Value - `kr/ch1/power_function_v2.c`
+- [ ] 1.9 Character Arrays - `kr/ch1/longest_line.c`
+- [ ] 1.10 External Variables and Scope - `kr/ch1/longest_line_external.c`
+
+### Exercises
+- [ ] 1-1: Run hello world, experiment with leaving out parts
+- [ ] 1-2: Experiment with `\c` escape sequences
+- [ ] 1-3: Modify temperature conversion to print heading
+- [ ] 1-4: Write Celsius to Fahrenheit conversion
+- [ ] 1-5: Reverse temperature table (300 to 0)
+- [ ] 1-6: Verify `getchar() != EOF` is 0 or 1
+- [ ] 1-7: Print value of EOF
+- [ ] 1-8: Count blanks, tabs, and newlines
+- [ ] 1-9: Copy input to output, replace multiple blanks with single blank
+- [ ] 1-10: Copy input to output, make tabs/backspaces/backslashes visible
+- [ ] 1-11: Test word counting program
+- [ ] 1-12: Print input one word per line
+- [ ] 1-13: Print histogram of word lengths (horizontal)
+- [ ] 1-14: Print histogram of character frequencies
+- [ ] 1-15: Rewrite temperature conversion with function
+- [ ] 1-16: Revise `longest_line.c` to handle arbitrarily long lines
+- [ ] 1-17: Print lines longer than 80 characters
+- [ ] 1-18: Remove trailing blanks and tabs, delete blank lines
+- [ ] 1-19: Write `reverse(s)` function to reverse string `s`
+- [ ] 1-20: Write `detab` to replace tabs with spaces
+- [ ] 1-21: Write `entab` to replace spaces with tabs
+- [ ] 1-22: Fold long input lines (break before column n)
+- [ ] 1-23: Remove all comments from C program
+- [ ] 1-24: Check C program for rudimentary syntax errors
+
+</details>
+
+<details>
+<summary><b>Chapter 2: Types, Operators, and Expressions</b></summary>
+
+### Example Programs
+- [ ] 2.1 Variable Names
+- [ ] 2.2 Data Types and Sizes
+- [ ] 2.3 Constants
+- [ ] 2.7 Type Conversions - `kr/ch2/lower.c`
+- [ ] 2.8 Increment/Decrement - `kr/ch2/squeeze.c`
+- [ ] 2.8 Bitwise Operators - `kr/ch2/getbits.c`
+- [ ] 2.9 Assignment Operators - `kr/ch2/bitcount.c`
+
+### Exercises
+- [ ] 2-1: Determine ranges of `char`, `short`, `int`, `long`
+- [ ] 2-2: Write loop equivalent to `for` without `&&` or `||`
+- [ ] 2-3: Write `htoi(s)` to convert hex string to integer
+- [ ] 2-4: Write `squeeze(s1,s2)` to delete chars in `s2` from `s1`
+- [ ] 2-5: Write `any(s1,s2)` to return first location in `s1` of any char from `s2`
+- [ ] 2-6: Write `setbits(x,p,n,y)` to set n bits of x at position p to bits from y
+- [ ] 2-7: Write `invert(x,p,n)` to invert n bits of x starting at position p
+- [ ] 2-8: Write `rightrot(x,n)` to rotate x right by n bit positions
+- [ ] 2-9: Explain `x &= (x-1)` deletes rightmost 1-bit in x
+- [ ] 2-10: Rewrite `lower(c)` with conditional expression instead of if-else
+
+</details>
+
+<details>
+<summary><b>Chapter 3: Control Flow</b></summary>
+
+### Example Programs
+- [ ] 3.3 Binary Search - `kr/ch3/binsearch.c`
+- [ ] 3.5 Shell Sort - `kr/ch3/shellsort.c`
+- [ ] 3.6 Reverse - `kr/ch3/reverse.c`
+- [ ] 3.6 itoa - `kr/ch3/itoa.c`
+- [ ] 3.6 atoi - `kr/ch3/atoi.c`
+- [ ] 3.7 trim - `kr/ch3/trim.c`
+
+### Exercises
+- [ ] 3-1: Modify `binsearch` with only one test inside the loop
+- [ ] 3-2: Write `escape(s,t)` to convert newline/tab to visible escapes
+- [ ] 3-3: Expand `expand(s1,s2)` to handle ranges like `a-z`
+- [ ] 3-4: Handle largest negative number in `itoa`
+- [ ] 3-5: Write `itob(n,s,b)` to convert n to base b representation
+- [ ] 3-6: Modify `itoa` to accept width parameter for padding
+
+</details>
+
+<details>
+<summary><b>Chapter 4: Functions and Program Structure</b></summary>
+
+### Example Programs
+- [ ] 4.1 Pattern Searching - `kr/ch4/grep.c`
+- [ ] 4.2 atof - `kr/ch4/atof.c`
+- [ ] 4.3 Reverse Polish Calculator - `kr/ch4/calc/`
+- [ ] 4.11 Recursive quicksort - `kr/ch4/qsort.c`
+
+### Exercises
+- [ ] 4-1: Write `strrindex(s,t)` to return rightmost position of t in s
+- [ ] 4-2: Extend `atof` to handle scientific notation
+- [ ] 4-3: Extend calculator to handle modulus and negative numbers
+- [ ] 4-4: Add commands to print top, duplicate, swap, clear stack
+- [ ] 4-5: Add access to math library functions (sin, cos, exp, pow)
+- [ ] 4-6: Add commands for variables
+- [ ] 4-7: Write `ungets(s)` to push back entire string
+- [ ] 4-8: Modify `getch`/`ungetch` to handle at most one character of pushback
+- [ ] 4-9: Modify getch/ungetch to handle EOF
+- [ ] 4-10: Use `getline` instead of `getch`/`ungetch` for calculator
+- [ ] 4-11: Modify `getop` to not use `ungetch`
+- [ ] 4-12: Adapt printd to print integer recursively
+- [ ] 4-13: Write recursive `reverse(s)`
+- [ ] 4-14: Define macro `swap(t,x,y)` to swap two arguments
+
+</details>
+
+<details>
+<summary><b>Chapter 5: Pointers and Arrays</b></summary>
+
+### Example Programs
+- [ ] 5.2 getint - `kr/ch5/getint.c`
+- [ ] 5.4 alloc/afree - `kr/ch5/alloc.c`
+- [ ] 5.5 strcpy - `kr/ch5/strcpy.c`
+- [ ] 5.5 strcmp - `kr/ch5/strcmp.c`
+- [ ] 5.6 Pointer array sort - `kr/ch5/sort_lines.c`
+- [ ] 5.7 qsort with function pointers - `kr/ch5/qsort_lines.c`
+- [ ] 5.10 expr (command-line calculator) - `kr/ch5/expr.c`
+- [ ] 5.11 detab/entab - `kr/ch5/detab.c`
+- [ ] 5.12 dcl (C declarations) - `kr/ch5/dcl.c`
+
+### Exercises
+- [ ] 5-1: Fix `getint` to handle +/- not followed by digit
+- [ ] 5-2: Write `getfloat` analog of `getint`
+- [ ] 5-3: Write pointer version of `strcat`
+- [ ] 5-4: Write `strend(s,t)` returns 1 if t occurs at end of s
+- [ ] 5-5: Write pointer versions of `strncpy`, `strncat`, `strncmp`
+- [ ] 5-6: Rewrite earlier programs using pointers
+- [ ] 5-7: Rewrite `readlines` to store lines in array supplied by main
+- [ ] 5-8: Implement error checking in `day_of_year` and `month_day`
+- [ ] 5-9: Rewrite `day_of_year` and `month_day` with pointers
+- [ ] 5-10: Write `expr` for reverse Polish expressions from command line
+- [ ] 5-11: Modify `detab`/`entab` to accept list of tab stops
+- [ ] 5-12: Extend `entab`/`detab` to accept `-m +n` for columns m to n
+- [ ] 5-13: Write `tail` to print last n lines (default 10)
+- [ ] 5-14: Modify sort to handle `-r` reverse sort
+- [ ] 5-15: Add `-f` fold upper/lower case, `-d` directory order
+- [ ] 5-16: Add `-d` (directory order) option
+- [ ] 5-17: Add field handling to sort
+- [ ] 5-18: Make `dcl` handle errors
+- [ ] 5-19: Modify `undcl` to handle errors
+- [ ] 5-20: Expand `dcl` to handle declarations with function argument types
+
+</details>
+
+<details>
+<summary><b>Chapter 6: Structures</b></summary>
+
+### Example Programs
+- [ ] 6.1 Point structures - `kr/ch6/point.c`
+- [ ] 6.2 makepoint/addpoint - `kr/ch6/point_ops.c`
+- [ ] 6.3 Rectangle operations - `kr/ch6/rect.c`
+- [ ] 6.5 Word frequency counter - `kr/ch6/wordfreq.c`
+- [ ] 6.6 Table lookup - `kr/ch6/table.c`
+
+### Exercises
+- [ ] 6-1: Modify `getword` to handle underscores, strings, comments, preprocessor
+- [ ] 6-2: Write program to print variables in groups (first 6 chars determine group)
+- [ ] 6-3: Write cross-referencer that prints line numbers where each word occurs
+- [ ] 6-4: Write program to print distinct words with occurrence counts
+- [ ] 6-5: Write `undef` to remove name and definition from table
+- [ ] 6-6: Implement simple #define processor
+
+</details>
+
+<details>
+<summary><b>Chapter 7: Input and Output</b></summary>
+
+### Example Programs
+- [ ] 7.1 Lower case conversion - `kr/ch7/lower.c`
+- [ ] 7.2 cat - `kr/ch7/cat.c`
+- [ ] 7.4 minprintf - `kr/ch7/minprintf.c`
+- [ ] 7.6 File comparison - `kr/ch7/filecomp.c`
+- [ ] 7.8.5 Storage allocator - `kr/ch7/malloc.c`
+
+### Exercises
+- [ ] 7-1: Modify case conversion to handle upper/lower based on program name
+- [ ] 7-2: Print arbitrary input sensibly (hex for non-graphic chars)
+- [ ] 7-3: Revise `minprintf` to handle more printf facilities
+- [ ] 7-4: Write `minscanf` analog of `minprintf`
+- [ ] 7-5: Postfix calculator using scanf/printf
+- [ ] 7-6: Compare two files, print first line where they differ
+- [ ] 7-7: Modify pattern finding program to take input from files or stdin
+- [ ] 7-8: Print file contents with page breaks, headers, page numbers
+- [ ] 7-9: Rewrite fsize using standard library instead of syscalls
+
+</details>
+
+<details>
+<summary><b>Chapter 8: The UNIX System Interface</b></summary>
+
+### Example Programs
+- [ ] 8.2 getchar/putchar - `kr/ch8/getchar.c`
+- [ ] 8.3 open, creat, close, unlink - `kr/ch8/fileops.c`
+- [ ] 8.5 fsize - `kr/ch8/fsize.c`
+- [ ] 8.6 malloc - `kr/ch8/malloc.c`
+
+### Exercises
+- [ ] 8-1: Rewrite cat from Chapter 7 using syscalls
+- [ ] 8-2: Rewrite fopen/fillbuf with bit fields instead of explicit bit operations
+- [ ] 8-3: Design/implement `_flushbuf`, `fflush`, `fclose`
+- [ ] 8-4: Implement library version of `fseek`
+- [ ] 8-5: Modify `fsize` to print i-node information
+- [ ] 8-6: Implement standard library `calloc` and `free`
+- [ ] 8-7: Write `malloc` that checks for errors (orphaned blocks, valid pointers, etc.)
+- [ ] 8-8: Write `bfree(p,n)` to free arbitrary block of n characters
+
+</details>
+
+---
+
+**Repository Structure**: `kr/ch{N}/` - One directory per chapter
