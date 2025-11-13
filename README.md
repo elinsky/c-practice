@@ -28,7 +28,7 @@ Working through the second edition by Kernighan & Ritchie.
 - [x] 1-3: Modify temperature conversion to print heading - `kr/ch1/ex1-3.c`
 - [x] 1-4: Write Celsius to Fahrenheit conversion - `kr/ch1/ex1-4.c`
 - [x] 1-5: Reverse temperature table (300 to 0) - `kr/ch1/ex1-5.c`
-- [ ] 1-6: Verify `getchar() != EOF` is 0 or 1 - `kr/ch1/ex1-6.c`
+- [x] 1-6: Verify `getchar() != EOF` is 0 or 1 - `kr/ch1/ex1-6.c`
 - [ ] 1-7: Print value of EOF - `kr/ch1/ex1-7.c`
 - [ ] 1-8: Count blanks, tabs, and newlines - `kr/ch1/ex1-8.c`
 - [ ] 1-9: Copy input to output, replace multiple blanks with single blank - `kr/ch1/ex1-9.c`
