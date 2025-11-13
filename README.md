@@ -25,8 +25,8 @@ Working through the second edition by Kernighan & Ritchie.
 ### Exercises
 - [ ] 1-1: Run hello world, experiment with leaving out parts - `kr/ch1/ex1-1.c`
 - [ ] 1-2: Experiment with `\c` escape sequences - `kr/ch1/ex1-2.c`
-- [ ] 1-3: Modify temperature conversion to print heading - `kr/ch1/ex1-3.c`
-- [ ] 1-4: Write Celsius to Fahrenheit conversion - `kr/ch1/ex1-4.c`
+- [x] 1-3: Modify temperature conversion to print heading - `kr/ch1/ex1-3.c`
+- [x] 1-4: Write Celsius to Fahrenheit conversion - `kr/ch1/ex1-4.c`
 - [ ] 1-5: Reverse temperature table (300 to 0) - `kr/ch1/ex1-5.c`
 - [ ] 1-6: Verify `getchar() != EOF` is 0 or 1 - `kr/ch1/ex1-6.c`
 - [ ] 1-7: Print value of EOF - `kr/ch1/ex1-7.c`
