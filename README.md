@@ -10,7 +10,7 @@ Working through the second edition by Kernighan & Ritchie.
 ### Example Programs
 - [x] 1.1 Getting Started - `kr/ch1/hello_world.c`
 - [x] 1.2 Variables and Arithmetic - `kr/ch1/fahr_celsius.c`
-- [ ] 1.3 The For Statement - `kr/ch1/fahr_celsius_for.c`
+- [x] 1.3 The For Statement - `kr/ch1/fahr_celsius_for.c`
 - [ ] 1.4 Symbolic Constants - `kr/ch1/fahr_celsius_symbolic.c`
 - [ ] 1.5.1 File Copying - `kr/ch1/file_copy.c`
 - [ ] 1.5.2 Character Counting - `kr/ch1/char_count.c`
