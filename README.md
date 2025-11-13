@@ -13,7 +13,7 @@ Working through the second edition by Kernighan & Ritchie.
 - [x] 1.3 The For Statement - `kr/ch1/fahr_celsius_for.c`
 - [x] 1.4 Symbolic Constants - `kr/ch1/fahr_celsius_symbolic.c`
 - [x] 1.5.1 File Copying - `kr/ch1/file_copy.c`
-- [ ] 1.5.2 Character Counting - `kr/ch1/char_count.c`
+- [x] 1.5.2 Character Counting - `kr/ch1/char_count.c`
 - [ ] 1.5.3 Line Counting - `kr/ch1/line_count.c`
 - [ ] 1.5.4 Word Counting - `kr/ch1/word_count.c`
 - [ ] 1.6 Arrays - `kr/ch1/digit_count.c`
