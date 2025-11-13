@@ -15,8 +15,8 @@ Working through the second edition by Kernighan & Ritchie.
 - [x] 1.5.1 File Copying - `kr/ch1/file_copy.c`
 - [x] 1.5.2 Character Counting - `kr/ch1/char_count.c`
 - [ ] 1.5.3 Line Counting - `kr/ch1/line_count.c`
-- [ ] 1.5.4 Word Counting - `kr/ch1/word_count.c`
-- [ ] 1.6 Arrays - `kr/ch1/digit_count.c`
+- [x] 1.5.4 Word Counting - `kr/ch1/word_count.c`
+- [x] 1.6 Arrays - `kr/ch1/digit_count.c`
 - [ ] 1.7 Functions - `kr/ch1/power_function.c`
 - [ ] 1.8 Arguments - Call by Value - `kr/ch1/power_function_v2.c`
 - [ ] 1.9 Character Arrays - `kr/ch1/longest_line.c`
@@ -30,13 +30,13 @@ Working through the second edition by Kernighan & Ritchie.
 - [x] 1-5: Reverse temperature table (300 to 0) - `kr/ch1/ex1-5.c`
 - [x] 1-6: Verify `getchar() != EOF` is 0 or 1 - `kr/ch1/ex1-6.c`
 - [x] 1-7: Print value of EOF - `kr/ch1/ex1-7.c`
-- [ ] 1-8: Count blanks, tabs, and newlines - `kr/ch1/ex1-8.c`
-- [ ] 1-9: Copy input to output, replace multiple blanks with single blank - `kr/ch1/ex1-9.c`
-- [ ] 1-10: Copy input to output, make tabs/backspaces/backslashes visible - `kr/ch1/ex1-10.c`
+- [x] 1-8: Count blanks, tabs, and newlines - `kr/ch1/ex1-8.c`
+- [x] 1-9: Copy input to output, replace multiple blanks with single blank - `kr/ch1/ex1-9.c`
+- [x] 1-10: Copy input to output, make tabs/backspaces/backslashes visible - `kr/ch1/ex1-10.c`
 - [ ] 1-11: Test word counting program - `kr/ch1/ex1-11.c`
-- [ ] 1-12: Print input one word per line - `kr/ch1/ex1-12.c`
-- [ ] 1-13: Print histogram of word lengths (horizontal) - `kr/ch1/ex1-13.c`
-- [ ] 1-14: Print histogram of character frequencies - `kr/ch1/ex1-14.c`
+- [x] 1-12: Print input one word per line - `kr/ch1/ex1-12.c`
+- [x] 1-13: Print histogram of word lengths (horizontal) - `kr/ch1/ex1-13.c`
+- [x] 1-14: Print histogram of character frequencies - `kr/ch1/ex1-14.c`
 - [ ] 1-15: Rewrite temperature conversion with function - `kr/ch1/ex1-15.c`
 - [ ] 1-16: Revise `longest_line.c` to handle arbitrarily long lines - `kr/ch1/ex1-16.c`
 - [ ] 1-17: Print lines longer than 80 characters - `kr/ch1/ex1-17.c`
