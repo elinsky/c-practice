@@ -1,1 +1,19 @@
+# Compiled executables
 *.out
+a.out
+
+# macOS debug symbols
+*.dSYM/
+
+# Compiled binaries (no extension)
+kr/ch1/ex1-*
+!kr/ch1/ex1-*.c
+kr/ch1/power_function
+kr/ch1/power_function_v2
+kr/ch1/longest_line
+kr/ch1/*_count
+kr/ch1/fahr_*
+kr/ch1/hello_world
+kr/ch1/file_copy
+kr/ch1/word_count
+kr/ch1/digit_count

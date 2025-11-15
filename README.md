@@ -19,7 +19,7 @@ Working through the second edition by Kernighan & Ritchie.
 - [x] 1.6 Arrays - `kr/ch1/digit_count.c`
 - [x] 1.7 Functions - `kr/ch1/power_function.c`
 - [x] 1.8 Arguments - Call by Value - `kr/ch1/power_function_v2.c`
-- [ ] 1.9 Character Arrays - `kr/ch1/longest_line.c`
+- [x] 1.9 Character Arrays - `kr/ch1/longest_line.c`
 - [ ] 1.10 External Variables and Scope - `kr/ch1/longest_line_external.c`
 
 ### Exercises
@@ -38,7 +38,7 @@ Working through the second edition by Kernighan & Ritchie.
 - [x] 1-13: Print histogram of word lengths (horizontal) - `kr/ch1/ex1-13.c`
 - [x] 1-14: Print histogram of character frequencies - `kr/ch1/ex1-14.c`
 - [x] 1-15: Rewrite temperature conversion with function - `kr/ch1/ex1-15.c`
-- [ ] 1-16: Revise `longest_line.c` to handle arbitrarily long lines - `kr/ch1/ex1-16.c`
+- [x] 1-16: Revise `longest_line.c` to handle arbitrarily long lines - `kr/ch1/ex1-16.c`
 - [ ] 1-17: Print lines longer than 80 characters - `kr/ch1/ex1-17.c`
 - [ ] 1-18: Remove trailing blanks and tabs, delete blank lines - `kr/ch1/ex1-18.c`
 - [ ] 1-19: Write `reverse(s)` function to reverse string `s` - `kr/ch1/ex1-19.c`
